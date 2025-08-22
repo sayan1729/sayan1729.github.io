@@ -7,4 +7,4 @@ importance: 1
 category: 5th semester 2025
 ---
 
-[Syllabus](assets/pdf/ug/3/pde/syllabus.pdf) | [Notes](assets/pdf/ug/3/pde/notes.pdf)
+[Syllabus](https://sayan1729.github.io/assets/pdf/ug/3/pde/syllabus.pdf) | [Notes](https://sayan1729.github.io/assets/pdf/ug/3/pde/notes.pdf)

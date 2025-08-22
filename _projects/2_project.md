@@ -7,4 +7,4 @@ importance: 2
 category: 4th semester 2025
 ---
 
-[Syllabus](assets/pdf/ug/2/ant/syllabus.pdf) | [Notes](assets/pdf/ug/2/ant/notes.pdf)
+[Syllabus](https://sayan1729.github.io/assets/pdf/ug/2/ant/syllabus.pdf) | [Notes](https://sayan1729.github.io/assets/pdf/ug/2/ant/notes.pdf)
