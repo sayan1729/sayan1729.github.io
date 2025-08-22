@@ -2,7 +2,7 @@
 layout: page
 title: Linear Algebra
 description: Major | 4 Credits
-img: assets/img/la.jpg
+img: assets/img/fdvs.jpg
 importance: 2
 category: 4th semester 2025
 ---
