@@ -2,6 +2,11 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+@font-face {
+    font-family: 'Cormorant';
+    src: url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+}
+
 // Typography
 
 p,
@@ -17,7 +22,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
-  font-family: Cormorant, 'Times New Roman', serif;
+  font-family: 'Cormorant', 'Times New Roman', serif;
 }
 
 hr {
