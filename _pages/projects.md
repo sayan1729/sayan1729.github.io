@@ -2,7 +2,7 @@
 layout: page
 title: Notes
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Notes taken during my undergraduate studies.
 nav: true
 nav_order: 3
 display_categories: [4th semester 2025, 5th semester 2025]

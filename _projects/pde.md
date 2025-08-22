@@ -3,7 +3,7 @@ layout: page
 title: Partial Differential Equations
 description: Major | 4 Credits
 img: assets/img/Lorenz_attractor.png
-importance: 1
+importance: 4
 category: 5th semester 2025
 ---
 

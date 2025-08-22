@@ -3,7 +3,7 @@ layout: page
 title: Algebraic Number Theory
 description: NPTEL IISc | 4 Credits
 img: assets/img/SpecOK.png
-importance: 2
+importance: 1
 category: 4th semester 2025
 ---
 

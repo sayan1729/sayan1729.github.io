@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I am glad to share that I have successfully completed a summer internship in analytic number theory at the Indian Statistical Institute, Kolkata under the supervision of Professor Satadal Ganguly, lasting from 1st July to 31st July, 2025.
+I am glad to share that I have successfully completed a summer internship in analytic number theory at the Indian Statistical Institute, Kolkata under the supervision of Professor [Satadal Ganguly](https://sites.google.com/site/satadalganguly/), lasting from 1st July to 31st July, 2025.
 
 ---
 
