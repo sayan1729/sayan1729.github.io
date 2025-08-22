@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-# subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: dassayan0013 "at" gmail "dot" com (<a href='assets/pdf/cv.pdf'>CV</a>, <a href='https://github.com/sayan1729'>github</a>).
 
 profile:
   align: right
