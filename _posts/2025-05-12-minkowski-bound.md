@@ -21,7 +21,7 @@ toc:
 
 *This post assumes some familiarity with basic algebraic number theory i.e. the definition of a number field, ideal class group etc.*
 
-$\renewcommand{\Re}{\operatorname{Re}}\renewcommand{\Im}{\operatorname{Im}}\newcommand{\abs}[1]{|#1|}$ 
+$\renewcommand{\Re}{\operatorname{Re}}\renewcommand{\Im}{\operatorname{Im}}$
 
 $\newcommand{\IA}{\mathbb{A}}\newcommand{\IB}{\mathbb{B}}\newcommand{\IC}{\mathbb{C}}\newcommand{\ID}{\mathbb{D}}\newcommand{\IE}{\mathbb{E}}\newcommand{\IF}{\mathbb{F}}\newcommand{\IG}{\mathbb{G}}\newcommand{\IH}{\mathbb{H}}\newcommand{\IK}{\mathbb{K}}\newcommand{\IL}{\mathbb{L}}\newcommand{\IM}{\mathbb{M}}\newcommand{\IN}{\mathbb{N}}\newcommand{\IO}{\mathbb{O}}\newcommand{\IP}{\mathbb{P}}\newcommand{\IQ}{\mathbb{Q}}\newcommand{\IR}{\mathbb{R}}\newcommand{\IS}{\mathbb{S}}\newcommand{\IT}{\mathbb{T}}\newcommand{\IU}{\mathbb{U}}\newcommand{\IV}{\mathbb{V}}\newcommand{\IW}{\mathbb{W}}\newcommand{\IX}{\mathbb{X}}\newcommand{\IY}{\mathbb{Y}}\newcommand{\IZ}{\mathbb{Z}}$
 
