@@ -47,6 +47,24 @@ Let $\aa$ denote a nonzero $\oo$-ideal and choose $a\in\oo\setminus0$ with $N(a)
 Hence, $\aa=a\oo.\quad\blacksquare$
 {% enddetails %}
 
+The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map $a\mapsto|a|_\IR$ defines an Euclidean norm. Similarly, the map $f\mapsto\deg(f)$ defines an Euclidean norm on the polynomial ring $K[X]$ where $K$ is a field. As a consequence, $\IZ$ and $K[X]$ are both principal ideal domains. The case of the Gaussian integers $\IZ[i]$ is a tad more involved.
+
+<ins>**Theorem**</ins>. $\IZ[i]$ is an Euclidean domain.
+{% details Proof. %}
+For $a\in\IZ[i],$ define $N(a)=|a|_\IC.$ We claim that $N$ is an Euclidean norm. From $N(ab)=N(a)N(b)$ we clearly have $N(a)\leq N(ab).$
+
+Now suppose $b\in\IZ[i]:b\neq0$ and let $q$ be a nearest point in $\IZ[i]$ to the complex number $a/b$ in the Argand diagram.
+
+{% include figure.liquid loading="eager" path="assets/img/Zi_is_ED.jpg" class="img-fluid rounded z-depth-1" %}
+
+Then, by geometric considerations, we have
+$$
+\left|q-\frac{a}{b}\right|_\IC\leq\frac{\sqrt{2}}{2}\implies N(a-qb)<N(b)
+$$
+
+whence $a=qb+(a-qb)$ gives a representation of $a$ satisfying the second condition of an Euclidean domain. $\blacksquare$
+{% enddetails %}
+
 ### Lattices in Euclidean space
 
 We let $V$ be an $n$-dimensional $\IR$-vector space, fix once and for all an $\IR$-basis $\{e_1,\dots,e_n\}$ of $V,$ and given any element $x\in V$ write $x=\sum\limits_{h=1}^ne_hx_h$ where $x_h\in\IR.$
