@@ -254,8 +254,8 @@ jekyll-archives:
   books:
     enabled: [ ] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["group-theory", "probability", "combinatorics"] # these tags will be displayed on the front page of your blog
-display_categories: [ ] # these categories will be displayed on the front page of your blog
+display_tags: ["algebraic-number-theory", "number-theory", "group-theory", "probability", "combinatorics"] # these tags will be displayed on the front page of your blog
+display_categories: [ group-theory ] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
