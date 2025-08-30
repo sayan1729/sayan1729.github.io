@@ -39,7 +39,11 @@ The finiteness of the ideal class group of a number field $K$ can be shown via e
 
 <ins>**Theorem**</ins>. An Euclidean domain is a principal ideal domain.
 {% details Proof. %}
-Recall that an integral domain $\oo$ is *Euclidean* if there exists a norm $N:\oo\setminus0\to\IN\cup\{0\}$ s.t.
+Recall that an integral domain $\oo$ is *Euclidean* if there exists a norm
+$$
+N:\oo\setminus0\to\IN\cup\{0\}
+$$
+s.t.
 
 1. $N(b)\leq N(a,b)$
 2. We can write $a=qb+r$ with $q,r,b\in\oo$ and either $N(r)<N(b)$ or $r=0.$
@@ -86,3 +90,8 @@ We let $V$ be an $n$-dimensional $\IR$-vector space, fix once and for all an $\I
 <ins>**Theorem**</ins>. Every bounded convex set in $V$ is Jordan measurable.
 
 ## Minkowski bound
+
+<ins>**Theorem**</ins>. Given a class $c\in C_K,$ there exists an $\oo_K$-ideal $\bb$ with class $c$ such that
+$$
+\Norm{\bb}\leq\frac{n!}{n^n}\left(\frac{4}{\pi}\right)^t\sqrt{|d_K|}.
+$$
