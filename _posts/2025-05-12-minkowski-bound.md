@@ -49,14 +49,18 @@ Let $\aa$ denote a nonzero $\oo$-ideal and choose $a\in\oo\setminus0$ with $N(a)
 Hence, $\aa=a\oo.\quad\blacksquare$
 {% enddetails %}
 
-The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map $\displaystyle a\mapsto|a|_{\IR}$ defines an Euclidean norm.
-
-Similarly, the map $f \mapsto \deg(f)$ defines an Euclidean norm on the polynomial ring $K[X]$ where $K$ is a field. As a consequence, $\IZ$ and $K[X]$ are both principal ideal domains. The case of the Gaussian integers $\IZ[i]$ is a tad more involved.
+The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map
+$$
+a\mapsto|a|_{\IR}
+$$
+defines an Euclidean norm. Similarly, the map $f \mapsto \deg(f)$ defines an Euclidean norm on the polynomial ring $K[X]$ where $K$ is a field. As a consequence, $\IZ$ and $K[X]$ are both principal ideal domains. The case of the Gaussian integers $\IZ[i]$ is a tad more involved.
 
 <ins>**Theorem**</ins>. $\IZ[i]$ is an Euclidean domain.
 {% details Proof. %}
-For $a\in\IZ[i],$ define $\displaystyle N(a)=|a|_{\IC}$.
-
+For $a\in\IZ[i],$ define
+$$
+N(a)=|a|_{\IC}.
+$$
 We claim that $N$ is an Euclidean norm. From $N(ab)=N(a)N(b)$ we clearly have $N(a)\leq N(ab).$
 
 Now suppose $b\in\IZ[i]:b\neq0$ and let $q$ be a nearest point in $\IZ[i]$ to the complex number $a/b$ in the Argand diagram.
