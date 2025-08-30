@@ -13,7 +13,7 @@ authors:
 bibliography: 2025-05-12-minkowski-bound.bib
 toc:
     - name: Introduction
-        subsections:
+      subsections:
             - name: Motivation
             - name: Lattices in Euclidean space
     - name: References
