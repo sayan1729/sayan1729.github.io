@@ -37,7 +37,7 @@ The finiteness of the ideal class group of a number field $K$ can be shown via e
 
 <ins>**Theorem**</ins>. An Euclidean domain is a principal ideal domain.
 {% details Proof. %}
-Recall that an integral domain $\oo$ is *Euclidean* if there exists a norm $N:\oo\setminus0\to\IN\cup\{0\}$ s.t. <div class="l-gutter"><p>This norm is known as the Euclidean norm.</p></div>
+Recall that an integral domain $\oo$ is *Euclidean* if there exists a norm $N:\oo\setminus0\to\IN\cup\{0\}$ s.t.
 
 1. $N(b)\leq N(a,b)$
 2. We can write $a=qb+r$ with $q,r,b\in\oo$ and either $N(r)<N(b)$ or $r=0.$
