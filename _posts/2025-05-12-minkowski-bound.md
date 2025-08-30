@@ -19,6 +19,8 @@ toc:
     - name: References
 ---
 
+*This post assumes some familiarity with basic algebraic number theory i.e. the definition of a number field, ideal class group etc.*
+
 $\renewcommand{\Re}{\operatorname{Re}}\renewcommand{\Im}{\operatorname{Im}}\newcommand{\abs}[1]{|#1|}$ 
 
 $\newcommand{\IA}{\mathbb{A}}\newcommand{\IB}{\mathbb{B}}\newcommand{\IC}{\mathbb{C}}\newcommand{\ID}{\mathbb{D}}\newcommand{\IE}{\mathbb{E}}\newcommand{\IF}{\mathbb{F}}\newcommand{\IG}{\mathbb{G}}\newcommand{\IH}{\mathbb{H}}\newcommand{\IK}{\mathbb{K}}\newcommand{\IL}{\mathbb{L}}\newcommand{\IM}{\mathbb{M}}\newcommand{\IN}{\mathbb{N}}\newcommand{\IO}{\mathbb{O}}\newcommand{\IP}{\mathbb{P}}\newcommand{\IQ}{\mathbb{Q}}\newcommand{\IR}{\mathbb{R}}\newcommand{\IS}{\mathbb{S}}\newcommand{\IT}{\mathbb{T}}\newcommand{\IU}{\mathbb{U}}\newcommand{\IV}{\mathbb{V}}\newcommand{\IW}{\mathbb{W}}\newcommand{\IX}{\mathbb{X}}\newcommand{\IY}{\mathbb{Y}}\newcommand{\IZ}{\mathbb{Z}}$
@@ -31,7 +33,7 @@ $\newcommand{\Ann}{\operatorname{Ann}}\newcommand{\Ass}{\operatorname{Ass}}\newc
 
 ### Motivation
 
-The finiteness of the ideal class group of a number field $K$ can be shown via elementary geometric arguments involving lattices. Explicit computation of classgroups isn't easy for most number fields $K.$ Showing that any ideal class of $K$ is represented by some $\oo_K$-ideal whose norm is less than some bound is fundamental in such calculations. The geometric methods of lattices in $\IR^n$ allow us to obtain a powerful bound, called **Minkowski's bound**, for classgroup calculations.
+The finiteness of the ideal class group of a number field $K$ can be shown via elementary geometric arguments involving lattices. Explicit computation of classgroups isn't easy for most number fields $K.$ Showing that any ideal class of $K$ is represented by some $\oo_K$-ideal whose norm is less than some bound is fundamental in such calculations. The geometric methods of lattices in $\IR^n$ allow us to obtain a powerful bound, called *Minkowski's bound*, for classgroup calculations.
 
 ### Lattices in Euclidean space
 
