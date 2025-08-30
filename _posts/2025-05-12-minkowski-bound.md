@@ -16,7 +16,7 @@ toc:
       subsections:
             - name: Motivation
             - name: Lattices in Euclidean space
-    - name: References
+    - name: Minkowski's bound
 ---
 
 *This post assumes some familiarity with basic algebraic number theory i.e. the definition of a number field, ideal class group etc.*
@@ -28,6 +28,8 @@ $\newcommand{\IA}{\mathbb{A}}\newcommand{\IB}{\mathbb{B}}\newcommand{\IC}{\mathb
 $\renewcommand{\aa}{\mathfrak{a}}\newcommand{\bb}{\mathfrak{b}}\newcommand{\cc}{\mathfrak{c}}\newcommand{\dd}{\mathfrak{d}}\newcommand{\ee}{\mathfrak{e}}\newcommand{\ff}{\mathfrak{f}}\let\gge\gg\renewcommand{\gg}{\mathfrak{g}}\newcommand{\hh}{\mathfrak{h}}\newcommand{\ii}{\mathfrak{i}}\newcommand{\jj}{\mathfrak{j}}\newcommand{\kk}{\mathfrak{k}}\let\lle\ll\renewcommand{\ll}{\mathfrak{l}}\newcommand{\mm}{\mathfrak{m}}\newcommand{\nn}{\mathfrak{n}}\newcommand{\oo}{\mathfrak{o}}\newcommand{\pp}{\mathfrak{p}}\newcommand{\qq}{\mathfrak{q}}\newcommand{\rr}{\mathfrak{r}}\newcommand{\uu}{\mathfrak{u}}\newcommand{\vv}{\mathfrak{v}}\newcommand{\ww}{\mathfrak{w}}\newcommand{\xx}{\mathfrak{x}}\newcommand{\yy}{\mathfrak{y}}\newcommand{\zz}{\mathfrak{z}}$
 
 $\newcommand{\Ann}{\operatorname{Ann}}\newcommand{\Ass}{\operatorname{Ass}}\newcommand{\Aut}{\operatorname{Aut}}\newcommand{\cha}{\operatorname{char}}\newcommand{\codim}{\operatorname{codim}}\newcommand{\End}{\operatorname{End}}\newcommand{\Gal}{\operatorname{Gal}}\newcommand{\Hom}{\operatorname{Hom}}\newcommand{\Hhom}{\operatorname{\Hh om}\nolimits}\newcommand{\Eext}{\operatorname{\Ee xt}\nolimits}\newcommand{\hoehe}{\operatorname{ht}}\newcommand{\id}{\operatorname{id}}\newcommand{\lcm}{\operatorname{lcm}}\newcommand{\im}{\operatorname{im}}\newcommand{\coim}{\operatorname{coim}}\newcommand{\mSpec}{\mm\operatorname{-Spec}}\newcommand{\Ob}{\operatorname{Ob}}\newcommand{\GL}{\operatorname{GL}}\newcommand{\SL}{\operatorname{SL}}\newcommand{\Sym}{\operatorname{Sym}}\newcommand{\Min}{\operatorname{Min}}\newcommand{\Sheaf}{\operatorname{Sheaf}}\renewcommand{\sh}{\mathrm{sh}}\newcommand{\Sh}{\mathrm{Sh}}\newcommand{\h}{\mathrm{h}}\renewcommand{\red}{\mathrm{red}}\newcommand{\alt}{\mathrm{alt}}\newcommand{\spn}{\mathrm{span}}\newcommand{\interior}{\mathrm{int}}\newcommand{\closure}{\mathrm{cl}}\newcommand{\diam}{\mathrm{diam}}\newcommand{\Cl}{\operatorname{Cl}}\newcommand{\Pic}{\operatorname{Pic}}\newcommand{\Div}{\operatorname{Div}}\newcommand{\pr}{\operatorname{pr}}\newcommand{\ran}{\operatorname{ran}}\newcommand{\dom}{\operatorname{dom}}\newcommand{\rank}{\operatorname{rank}}\newcommand{\diag}{\operatorname{diag}}\newcommand{\nullity}{\operatorname{nullity}}\renewcommand{\det}{\operatorname{det}}\newcommand{\Mat}{\operatorname{Mat}}\newcommand{\Tr}{\operatorname{Tr}}\newcommand{\Norm}{\operatorname{N}}\newcommand\norm[1]{\| #1 \|}\newcommand\inner[2]{\left\langle #1, #2 \right\rangle}\newcommand{\op}{\mathrm{op}}\newcommand{\sep}{\mathrm{sep}}\newcommand{\rad}{\operatorname{rad}}\newcommand{\inv}{\operatorname{inv}}\newcommand{\Cov}{\operatorname{Cov}}\newcommand{\Con}{\operatorname{Con}}\newcommand{\Der}{\operatorname{Der}}\newcommand{\Fun}{\operatorname{Fun}}\newcommand{\Coeq}{\operatorname{Coeq}}\newcommand{\Fib}{\operatorname{Fib}}\newcommand{\Eq}{\operatorname{Eq}}\newcommand{\Bil}{\operatorname{Bil}}\newcommand{\Frob}{\operatorname{Frob}}\newcommand{\Cone}{\operatorname{Cone}}\newcommand{\coker}{\operatorname{coker}}\newcommand{\supp}{\operatorname{supp}}\newcommand{\length}{\operatorname{length}}\newcommand{\depth}{\operatorname{depth}}\newcommand{\trdeg}{\operatorname{tr.deg}}\newcommand{\idim}{\operatorname{inj.dim}}\newcommand{\pdim}{\operatorname{pr.dim}}\newcommand{\gdim}{\operatorname{gl.dim}}\newcommand{\fdim}{\operatorname{fl.dim}}\newcommand{\gr}{\operatorname{gr}}\renewcommand{\div}{\operatorname{div}}\newcommand{\Tor}{\operatorname{Tor}\newcommand{\Tot}\operatorname{Tot}\newcommand{\Ext}\operatorname{Ext}}\newcommand{\sgn}{\operatorname{sgn}}\newcommand{\nil}{\operatorname{nil}}\newcommand{\Spec}{\operatorname{Spec}}\newcommand{\Proj}{\operatorname{Proj}}\newcommand{\res}{\operatorname{res}}\newcommand{\Reg}{\operatorname{Reg}}\newcommand{\hor}{\mathrm{hor}}\newcommand{\ver}{\mathrm{vert}}\newcommand{\Zar}{\mathrm{Zar}}\newcommand{\fppf}{\mathrm{fppf}}\newcommand{\fpqc}{\mathrm{fpqc}}\newcommand{\et}{\mathrm{\acute{e}t}}\newcommand{\Et}{\mathrm{\acute{E}t}}\newcommand{\proet}{\mathrm{pro\acute{e}t}}\newcommand{\cris}{\mathrm{cris}}\newcommand{\HT}{\mathrm{HT}}\newcommand{\dR}{\mathrm{dR}}\newcommand{\tr}{\operatorname{tr}}$
+
+The discussion here largely follows *Chapter IV* of <d-cite key="FrohlichTaylor"></d-cite>.
 
 ## Introduction
 
@@ -47,11 +49,15 @@ Let $\aa$ denote a nonzero $\oo$-ideal and choose $a\in\oo\setminus0$ with $N(a)
 Hence, $\aa=a\oo.\quad\blacksquare$
 {% enddetails %}
 
-The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map $a\mapsto|a|_\IR$ defines an Euclidean norm. Similarly, the map $f\mapsto\deg(f)$ defines an Euclidean norm on the polynomial ring $K[X]$ where $K$ is a field. As a consequence, $\IZ$ and $K[X]$ are both principal ideal domains. The case of the Gaussian integers $\IZ[i]$ is a tad more involved.
+The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map $a \mapsto |a|_{\IR}$ defines an Euclidean norm.
+
+Similarly, the map $f \mapsto \deg(f)$ defines an Euclidean norm on the polynomial ring $K[X]$ where $K$ is a field. As a consequence, $\IZ$ and $K[X]$ are both principal ideal domains. The case of the Gaussian integers $\IZ[i]$ is a tad more involved.
 
 <ins>**Theorem**</ins>. $\IZ[i]$ is an Euclidean domain.
 {% details Proof. %}
-For $a\in\IZ[i],$ define $N(a)=|a|_\IC.$ We claim that $N$ is an Euclidean norm. From $N(ab)=N(a)N(b)$ we clearly have $N(a)\leq N(ab).$
+For $a\in\IZ[i],$ define $N(a)=|a|_{\IC}.$
+
+We claim that $N$ is an Euclidean norm. From $N(ab)=N(a)N(b)$ we clearly have $N(a)\leq N(ab).$
 
 Now suppose $b\in\IZ[i]:b\neq0$ and let $q$ be a nearest point in $\IZ[i]$ to the complex number $a/b$ in the Argand diagram.
 
@@ -75,6 +81,4 @@ We let $V$ be an $n$-dimensional $\IR$-vector space, fix once and for all an $\I
 
 <ins>**Theorem**</ins>. Every bounded convex set in $V$ is Jordan measurable.
 
-## References
-
-<a name="erdos-turan"></a> [1] P. Erdős and P. Turán, [On some problems of a statistical group-theory](https://users.renyi.hu/~p_erdos/1968-11.pdf), IV, Acta Math. Acad. Sci. Hung., 19 (1968) 413-435.
+## Minkowski's bound
