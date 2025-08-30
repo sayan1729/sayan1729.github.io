@@ -45,7 +45,7 @@ Recall that an integral domain $\oo$ is *Euclidean* if there exists a norm $N:\o
 Let $\aa$ denote a nonzero $\oo$-ideal and choose $a\in\oo\setminus0$ with $N(a)$ minimal. Then clearly $\aa\supset a\oo,$ and further for any $b\in\aa$ we may write $b=qa+r$ where either $r=0$ or $N(r)<N(a).$ Since $r\in\aa,$ by the minimality condition on $a,$ it follows that $r=0,$ so $b\in a\oo.$
 
 Hence, $\aa=a\oo.\quad\blacksquare$
-{% enddetails $}
+{% enddetails %}
 
 ### Lattices in Euclidean space
 
