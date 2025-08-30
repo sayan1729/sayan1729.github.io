@@ -35,11 +35,23 @@ $\newcommand{\Ann}{\operatorname{Ann}}\newcommand{\Ass}{\operatorname{Ass}}\newc
 
 The finiteness of the ideal class group of a number field $K$ can be shown via elementary geometric arguments involving lattices. Explicit computation of classgroups isn't easy for most number fields $K.$ Showing that any ideal class of $K$ is represented by some $\oo_K$-ideal whose norm is less than some bound is fundamental in such calculations. The geometric methods of lattices in $\IR^n$ allow us to obtain a powerful bound, called *Minkowski's bound*, for classgroup calculations.
 
+<ins>**Theorem**</ins>. An Euclidean domain is a principal ideal domain.
+{% details Proof. %}
+Recall that an integral domain $\oo$ is *Euclidean* if there exists a norm $N:\oo\setminus0\to\IN\cup\{0\}$ s.t. <div class="l-gutter"><p>This norm is known as the Euclidean norm.</p></div>
+
+1. $N(b)\leq N(a,b)$
+2. We can write $a=qb+r$ with $q,r,b\in\oo$ and either $N(r)<N(b)$ or $r=0.$
+
+Let $\aa$ denote a nonzero $\oo$-ideal and choose $a\in\oo\setminus0$ with $N(a)$ minimal. Then clearly $\aa\supset a\oo,$ and further for any $b\in\aa$ we may write $b=qa+r$ where either $r=0$ or $N(r)<N(a).$ Since $r\in\aa,$ by the minimality condition on $a,$ it follows that $r=0,$ so $b\in a\oo.$
+
+Hence, $\aa=a\oo.\quad\blacksquare$
+{% enddetails $}
+
 ### Lattices in Euclidean space
 
 We let $V$ be an $n$-dimensional $\IR$-vector space, fix once and for all an $\IR$-basis $\{e_1,\dots,e_n\}$ of $V,$ and given any element $x\in V$ write $x=\sum\limits_{h=1}^ne_hx_h$ where $x_h\in\IR.$
 
-<ins>**Definition**</ins>. $\Lambda$ is a discrete subgroup of $V$ iff $\Lambda$ is freely generated over $\IZ$ by $r$ vectors which are linearly independent over $\IR$ (hence $r\leq n$).
+<ins>**Lemma**</ins>. $\Lambda$ is a discrete subgroup of $V$ iff $\Lambda$ is freely generated over $\IZ$ by $r$ vectors which are linearly independent over $\IR$ (hence $r\leq n$).
 
 <ins>**Definition**</ins>. *Lattices* are discrete subgroups of maximal rank i.e. $r=n.$
 
