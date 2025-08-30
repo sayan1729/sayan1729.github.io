@@ -16,7 +16,7 @@ toc:
       subsections:
             - name: Motivation
             - name: Lattices in Euclidean space
-    - name: Minkowski's bound
+    - name: Minkowski bound
 ---
 
 *This post assumes some familiarity with basic algebraic number theory i.e. the definition of a number field, ideal class group etc.*
@@ -49,13 +49,13 @@ Let $\aa$ denote a nonzero $\oo$-ideal and choose $a\in\oo\setminus0$ with $N(a)
 Hence, $\aa=a\oo.\quad\blacksquare$
 {% enddetails %}
 
-The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map $a \mapsto |a|_{\IR}$ defines an Euclidean norm.
+The advantage of Euclidean domains is that their defintion is highly constructive: $\IZ$ is an Euclidean domain as the map $$a\mapsto|a|_{\IR}$$ defines an Euclidean norm.
 
 Similarly, the map $f \mapsto \deg(f)$ defines an Euclidean norm on the polynomial ring $K[X]$ where $K$ is a field. As a consequence, $\IZ$ and $K[X]$ are both principal ideal domains. The case of the Gaussian integers $\IZ[i]$ is a tad more involved.
 
 <ins>**Theorem**</ins>. $\IZ[i]$ is an Euclidean domain.
 {% details Proof. %}
-For $a\in\IZ[i],$ define $N(a)=|a|_{\IC}.$
+For $a\in\IZ[i],$ define $$N(a)=|a|_{\IC}.$$
 
 We claim that $N$ is an Euclidean norm. From $N(ab)=N(a)N(b)$ we clearly have $N(a)\leq N(ab).$
 
@@ -81,4 +81,4 @@ We let $V$ be an $n$-dimensional $\IR$-vector space, fix once and for all an $\I
 
 <ins>**Theorem**</ins>. Every bounded convex set in $V$ is Jordan measurable.
 
-## Minkowski's bound
+## Minkowski bound
