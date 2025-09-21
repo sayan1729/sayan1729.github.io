@@ -4,7 +4,7 @@ title: Analytic Number Theory
 description: Internship, ISI Kolkata | 4 Credits
 img: assets/img/euler-mascheroni.jpg
 importance: 1
-category: 5th semester 2025
+category: 5th semester notes (2025)
 ---
 
 Supervisor: Prof. [Satadal Ganguly](https://sites.google.com/site/satadalganguly/).

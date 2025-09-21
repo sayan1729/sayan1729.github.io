@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Notes
+title: Notes & Projects
 permalink: /projects/
-description: Notes taken during my undergraduate studies.
+description: Projects completed and notes taken during my undergraduate studies.
 nav: true
 nav_order: 3
-display_categories: [4th semester 2025, 5th semester 2025]
+display_categories: [Projects, 4th semester notes (2025), 5th semester notes (2025)]
 horizontal: false
 ---
 
