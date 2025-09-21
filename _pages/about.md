@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-3rd year undergraduate majoring in maths at [Jadavpur University](https://jadavpuruniversity.in/).
+Motivated 3rd year undergraduate majoring in maths at [Jadavpur University](https://jadavpuruniversity.in/).
 
-I am primarily interested in number theory - both algebraic and analytic. In particular, I am interested in automorphic forms, subconvexity of $L$-functions, equidistribution, sieve theory, the inverse Galois problem, Iwasawa theory, and harmonic analysis on number fields i.e. Iwasawa-Tate theory.
+I have strong foundations in probability, statistics and programming, and experience with financial modelling, risk evaluation, data-driven analysis, and machine learning. I have a proven track-record of collaborating on team projects and am skilled in C++, Java, Python, SQL, Tableau, PowerBI, and Excel.
+
+Within maths I am primarily interested in number theory - both algebraic and analytic. In particular, I am interested in problems involving automorphic forms, subconvexity of $L$-functions, equidistribution, sieve theory, the inverse Galois problem, Iwasawa theory, and harmonic analysis on number fields i.e. Iwasawa-Tate theory.
