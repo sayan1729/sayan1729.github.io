@@ -88,8 +88,8 @@ html[data-theme="dark"] {
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$white-color};
   --global-footer-link-color: #{$yellow-color};
-  --global-distill-app-color: #{$red-color};
-  --global-divider-color: #a178ee;
+  --global-distill-app-color: #{$red-color-dark};
+  --global-divider-color: #{$orange-color};
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($white-color, "red", $space: rgb)},
