@@ -5,7 +5,7 @@ import pic from "../public/pic.jpg";
 import {motion} from 'framer-motion';
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
-import { FaGithub, FaLinkedin, FaNoteSticky, FaOrcid } from "react-icons/fa6";
+import { FaBlog, FaGithub, FaLinkedin, FaDiagramProject, FaNoteSticky, FaOrcid, FaUserGraduate } from "react-icons/fa6";
 import {
   Tooltip,
   TooltipContent,
@@ -76,6 +76,51 @@ export default function Home() {
               className="flex items-center gap-1.5"
 
             >
+              {/* <Button className="rounded-full bg-gradient-to-r from-teal-600 to-indigo-600 text-white transition-transform hover:scale-105">Curriculum Vitae</Button>
+
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Link href="../" className="text-cyan-700 hover:text-cyan-200 hover:underline transition-colors">
+                    <FaUserGraduate className="w-6 h-6" />
+                  </Link>
+                </TooltipTrigger>
+                <TooltipContent>
+                  About.
+                </TooltipContent>
+              </Tooltip>
+
+              <Tooltip>
+                <TooltipTrigger asChild>
+                  <Link href="../blog/" className="text-cyan-700 hover:text-cyan-200 hover:underline transition-colors">
+                    <FaBlog className="w-6 h-6" />
+                  </Link>
+                </TooltipTrigger>
+                <TooltipContent>
+                  Blog.
+                </TooltipContent>
+              </Tooltip>
+
+              <Tooltip>
+                <TooltipTrigger asChild>  
+                <Link href="../notes/" className="text-cyan-700 hover:text-cyan-200 hover:underline transition-colors">
+                  <FaNoteSticky className="w-6 h-6" />
+                </Link>
+                </TooltipTrigger>
+                <TooltipContent>
+                  Notes.
+                </TooltipContent>
+              </Tooltip> 
+
+              <Tooltip>
+                <TooltipTrigger asChild>  
+                <Link href="../projects/" className="text-cyan-700 hover:text-cyan-200 hover:underline transition-colors">
+                  <FaDiagramProject className="w-6 h-6" />
+                </Link>
+                </TooltipTrigger>
+                <TooltipContent>
+                  Projects.
+                </TooltipContent>
+              </Tooltip>*/}
 
               <Button variant="link">
                 <Link href="../" className="bg-gradient-to-r from-cyan-500 via-blue-400 to-indigo-400 bg-clip-text text-transparent hover:text-cyan-200 transition-colors">
