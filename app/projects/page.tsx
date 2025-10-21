@@ -146,7 +146,7 @@ export default function Page() {
             >
               <h2 className="text-lg font-semibold bg-gradient-to-r from-indigo-500 via-cyan-400 to-indigo-600 bg-clip-text text-transparent">Projects.</h2>
               <p className="text-gray-400 text-sm max-w-2xl">
-                Below are some of the projects that I've worked on.
+                Below are some of the projects that I&apos;ve worked on.
               </p>
             </motion.div>
           </section>
