@@ -79,7 +79,7 @@ export default function Page() {
                 </Link>
               </Button>
 
-              <Button variant="link">
+              <Button variant="link" className="underline text-cyan-500">
                 <Link href="../../notes" className="bg-gradient-to-r from-cyan-500 via-blue-400 to-indigo-400 bg-clip-text text-transparent hover:text-cyan-200 transition-colors">
                   Notes
                 </Link>
