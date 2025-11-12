@@ -11,6 +11,11 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import { Card, CardContent } from "@/components/ui/card";
+
+import isiml24 from '../../public/isiml24/adjusted_returns.png'
+import gtmk23 from '../../public/gmtk23/jump.png'
+import numanal from '../../public/numanal/Methode_newton.png'
 
 export default function Page() {
   return (
@@ -144,12 +149,82 @@ export default function Page() {
               className="space-y-3"
 
             >
-              <h2 className="text-lg font-semibold bg-gradient-to-r from-indigo-500 via-cyan-400 to-indigo-600 bg-clip-text text-transparent">Projects.</h2>
+              <h2 className="text-lg font-semibold bg-gradient-to-r from-indigo-500 via-cyan-400 to-indigo-600 bg-clip-text text-transparent">Projects</h2>
               <p className="text-gray-400 text-sm max-w-2xl">
                 Below are some of the projects that I&apos;ve worked on.
               </p>
             </motion.div>
           </section>
+
+          <motion.section
+              initial={{opacity: 0, x: -100}}
+              animate={{opacity: 1, x: 0}}
+              transition={{duration: 0.8}}
+              className="space-y-3"
+          
+          >
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+              <Card className="bg-zinc-900 border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image alt="40% adjusted returns." src={isiml24} className="rounded-lg mb-4"/>
+
+                  <div className="flex items-center justify-between">
+
+                    <div>
+                      <h3 className="font-medium">ML Stock Trading</h3>
+                      <p className="text-sm text-gray-400">
+                         Trained an ML model to execute optimal stock trades.
+                      </p>
+                    </div>
+
+                    <Button variant="ghost" size="icon">
+                      <Link href="https://github.com/sayan1729/ML-Optimal-Stock-Trading">-&gt;</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-zinc-900 border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image alt="Anti-danmaku game." src={gtmk23} className="rounded-lg mb-4"/>
+
+                  <div className="flex items-center justify-between">
+
+                    <div>
+                      <h3 className="font-medium">Gestalt</h3>
+                      <p className="text-sm text-gray-400">
+                         A 2D game made for the GMTK 2023 game jam in just 48 hours.
+                      </p>
+                    </div>
+
+                    <Button variant="ghost" size="icon">
+                      <Link href="https://carlmariamikage.itch.io/gestalt">-&gt;</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-zinc-900 border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image alt="Numerical analysis algos in MATLBA." src={numanal} className="rounded-lg mb-4"/>
+
+                  <div className="flex items-center justify-between">
+
+                    <div>
+                      <h3 className="font-medium">Numerical Analysis</h3>
+                      <p className="text-sm text-gray-400">
+                         Implemented some common numerical algorithms.
+                      </p>
+                    </div>
+
+                    <Button variant="ghost" size="icon">
+                      <Link href="https://github.com/sayan1729/Numerical-Analysis">-&gt;</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </motion.section>
         </main>
       </div>
     </div>
