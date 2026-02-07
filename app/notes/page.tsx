@@ -200,7 +200,7 @@ export default function Page() {
                     <div>
                       <h3 className="font-medium">Linear Algebra</h3>
                       <p className="text-sm text-gray-400">
-                         A second course in linear algebra, following Axler's book.
+                         A second course in linear algebra, following Axler&lsquo;s book.
                       </p>
                     </div>
 
