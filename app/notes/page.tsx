@@ -11,6 +11,10 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
+import { Card, CardContent } from "@/components/ui/card";
+
+import ant from '../../public/sem3/specZi.png'
+import la from '../../public/sem4/la.png'
 
 export default function Page() {
   return (
@@ -150,6 +154,66 @@ export default function Page() {
               </p>
             </motion.div>
           </section>
+
+          <motion.section
+              initial={{opacity: 0, x: -100}}
+              animate={{opacity: 1, x: 0}}
+              transition={{duration: 0.8}}
+              className="space-y-3"
+          
+          >
+
+            <h3 className="text-lg font-semibold bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-500 bg-clip-text text-transparent">Semester 3</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+
+              <Card className="bg-zinc-900 border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image alt="40% adjusted returns." src={ant} className="rounded-lg mb-4"/>
+
+                  <div className="flex items-center justify-between">
+
+                    <div>
+                      <h3 className="font-medium">Algebraic Number Theory</h3>
+                      <p className="text-sm text-gray-400">
+                         An NPTEL IISc course taught by Prof. Mahesh Kakde.
+                      </p>
+                    </div>
+
+                    <Button variant="ghost" size="icon">
+                      <Link href="../../sem3/ant.pdf">-&gt;</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              
+            </div>
+              
+            <h3 className="text-lg font-semibold bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-500 bg-clip-text text-transparent">Semester 4</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+
+              <Card className="bg-zinc-900 border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image alt="40% adjusted returns." src={la} className="rounded-lg mb-4"/>
+
+                  <div className="flex items-center justify-between">
+
+                    <div>
+                      <h3 className="font-medium">Linear Algebra</h3>
+                      <p className="text-sm text-gray-400">
+                         A second course in linear algebra, following Axler's book.
+                      </p>
+                    </div>
+
+                    <Button variant="ghost" size="icon">
+                      <Link href="../../sem4/la.pdf">-&gt;</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              
+            </div>
+          </motion.section>
+          
         </main>
       </div>
     </div>
