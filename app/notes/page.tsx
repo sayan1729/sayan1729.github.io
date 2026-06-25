@@ -15,6 +15,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 import ant from '../../public/sem3/specZi.png'
 import la from '../../public/sem4/la.png'
+import gal from '../../public/sem6/milne.jpg'
 
 export default function Page() {
   return (
@@ -212,6 +213,31 @@ export default function Page() {
               </Card>
               
             </div>
+              
+            <h3 className="text-lg font-semibold bg-gradient-to-r from-indigo-400 via-cyan-400 to-indigo-500 bg-clip-text text-transparent">Semester 6</h3>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+
+              <Card className="bg-zinc-900 border-zinc-800 transition-transform duration-300 hover:scale-105 cursor-pointer">
+                <CardContent className="p-4">
+                  <Image alt="40% adjusted returns." src={gal} className="rounded-lg mb-4"/>
+
+                  <div className="flex items-center justify-between">
+
+                    <div>
+                      <h3 className="font-medium">Field Theory and Canonical Forms of Matrices</h3>
+                      <p className="text-sm text-gray-400">
+                         Covers canonical forms, bilinear forms and field extensions.
+                      </p>
+                    </div>
+
+                    <Button variant="ghost" size="icon">
+                      <Link href="../../sem6/galois.pdf">-&gt;</Link>
+                    </Button>
+                  </div>
+                </CardContent>
+              </Card>
+              
+            </div>            
           </motion.section>
           
         </main>
