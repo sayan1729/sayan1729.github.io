@@ -78,13 +78,13 @@ export default function Page() {
               className="flex items-center gap-1.5"
 
             >
-              <Button variant="link" className="underline text-amber-500">
+              <Button variant="link">
                 <Link href="../" className="bg-gradient-to-r from-red-500 via-orange-400 to-amber-400 bg-clip-text text-transparent hover:text-amber-200 transition-colors">
                   About
                 </Link>
               </Button>
 
-              <Button variant="link">
+              <Button variant="link" className="underline text-amber-500">
                 <Link href="../notes" className="bg-gradient-to-r from-red-500 via-orange-400 to-amber-400 bg-clip-text text-transparent hover:text-amber-200 transition-colors">
                   Notes
                 </Link>
