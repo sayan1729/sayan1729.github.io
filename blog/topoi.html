@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Sayan Das" />
   <title>On topoi</title>
   <style>
     code{white-space: pre-wrap;}
@@ -20,7 +21,27 @@
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../style.css" />
   <script
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
@@ -29,6 +50,7 @@
 <body>
 <header id="title-block-header">
 <h1 class="title">On topoi</h1>
+<p class="author">Sayan Das</p>
 </header>
 <nav id="TOC" role="doc-toc">
 <ul>
@@ -40,6 +62,7 @@ id="toc-topoi-as-a-replacement-of-sets">Topoi as a replacement of
 <li><a href="#topoi-as-a-generalisation-of-topological-vector-spaces"
 id="toc-topoi-as-a-generalisation-of-topological-vector-spaces">Topoi as
 a generalisation of topological vector spaces</a></li>
+<li><a href="#bibliography" id="toc-bibliography">Bibliography</a></li>
 </ul>
 </nav>
 <h2 id="historical-motivation">Historical motivation</h2>
@@ -49,14 +72,14 @@ on a site. Artin and Grothendieck famously defined the étale site <span
 class="math inline">\(X_\text{\&#39;et}\)</span> of a scheme, and used
 the resulting cohomology theory <span
 class="math inline">\(H^i(X_\text{\&#39;et},\mathbb{Z}/\ell^n\mathbb{Z})\)</span>
-to attack the Weil, resulting in Deligne’s full proof. There was always
-one minor technical point in the theory: one would really like to take
-coefficients in the field <span
+to attack the Weil conjectures, resulting in Deligne’s full proof. There
+was always one minor technical point in the theory: one would really
+like to take coefficients in the field <span
 class="math inline">\(\mathbb{Q}_\ell\)</span> of characteristic <span
 class="math inline">\(0,\)</span> but étale cohomology only works well
 with torsion coefficients, so one makes the ad hoc definition</p>
 <p><span
-class="math display">\[H^i(X_\text{\&#39;et},\mathbb{Q}_\ell):=\left(\lim_{\underset{n}{\longleftarrow}}H^i(X_\text{\&#39;et},\mathbb{Z}/\ell^n\mathbb{Z})\right)\otimes_{\mathbb{Z}_\ell}\mathbb{Q}_\ell.\]</span></p>
+class="math display">\[\text{``}H^i(X_\text{\&#39;et},\mathbb{Q}_\ell)\text{&quot;}:=\left(\lim_{\underset{n}{\longleftarrow}}H^i(X_\text{\&#39;et},\mathbb{Z}/\ell^n\mathbb{Z})\right)\otimes_{\mathbb{Z}_\ell}\mathbb{Q}_\ell.\]</span></p>
 <p>In practice, any abstract result on <span
 class="math inline">\(\ell\)</span>-adic cohomology can be proved using
 torsion coefficients and then formally passed on to <span
@@ -111,10 +134,13 @@ class="math inline">\(\text{Hom}\)</span>-objects. This led to various
 “convenient categories of topological spaces” like compactly generated
 Hausdorff spaces, but also work of Johnstone trying to find such a
 category that forms a topos, and the work of Spanier using a definition
-closely related to condensed sets. According to Scholze himself,
-condensed sets are, in a sense, the ultimate “convenient category of
-topological spaces”, and come with the added bonus that they form a
-topos (<em>suppressing some mild set-theoretic subtleties</em>).</p>
+closely related to condensed sets. According to Scholze himself <span
+class="citation" data-cites="GrothendieckLectures2021">[<a
+href="#ref-GrothendieckLectures2021"
+role="doc-biblioref">CCCL21</a>]</span>, condensed sets are, in a sense,
+the ultimate “convenient category of topological spaces”, and come with
+the added bonus that they form a topos (<em>suppressing some mild
+set-theoretic subtleties</em>).</p>
 <h2 id="topoi-as-a-replacement-of-sets">Topoi as a replacement of
 ‘sets’</h2>
 <p>Traditional mathematics is based on the notion of a ‘set.’
@@ -172,7 +198,7 @@ instead of graphs being <span class="math inline">\(1\)</span>-d shapes
 inside of <span class="math inline">\(2\)</span>-d space, everything is
 doubled: graphs are now <span class="math inline">\(2\)</span>-d shapes
 inside of <span class="math inline">\(4\)</span>-d space.</p>
-<p>The great mathematician Poincare actually classified all possible
+<p>The great mathematician Poincaré actually classified all possible
 <span class="math inline">\(2\)</span>-d shapes; they are classified
 (ignoring something called ‘non-orientable’ shapes) by a single number
 called the <strong>genus</strong>. The genus of a surface is the number
@@ -196,8 +222,9 @@ some similar relationship between the complex number incarnation of a
 polynomial equation, and the modular arithmetic incarnation, even when
 you have more than two variables (so maybe something like <span
 class="math inline">\(xy = z^2\)</span> instead of only <span
-class="math inline">\(x and y\)</span>), and even when you have systems
-of polynomial equations.</p>
+class="math inline">\(x\)</span> and <span
+class="math inline">\(y\)</span>), and even when you have systems of
+polynomial equations.</p>
 <p>It is not an exaggeration to say that much of modern algebraic
 geometry was invented by Grothendieck and his school in their various
 attempts to understand Weil’s conjecture. In Grothendieck’s attempt to
@@ -221,5 +248,19 @@ of all sheaves is called the <strong>topos</strong> of that topological
 space or Grothendieck topology; and it turns out that, at least in
 algebraic geometry, this topos is somehow the morally correct object,
 and is better behaved than the Grothendieck topology.</p>
+<h1 class="unnumbered" id="bibliography">Bibliography</h1>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0"
+role="list">
+<div id="ref-GrothendieckLectures2021" class="csl-entry"
+role="listitem">
+<div class="csl-left-margin">[CCCL21] </div><div
+class="csl-right-inline">Caramello, Olivia, Cartier, Pierre, Connes,
+Alain, Lafforgue, Laurent, McLarty, Colin, Pisier, Gilles, Scholze,
+Peter, Szczeciniarz, Jean-Jacques, and Zalamea, Fernando, <em><a
+href="https://spartacus-idh.com/liseuse/094/"><span
+class="nocase">Lectures grothendieckiennes</span></a></em>, Nouvelles
+visions des sciences, Spartacus-Idh, 2021.</div>
+</div>
+</div>
 </body>
 </html>
