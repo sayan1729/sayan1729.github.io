@@ -65,6 +65,12 @@ ul {
 	list-style: disc;
 }
 
+hr{
+   border-color: #a00;
+   background-color:  #a00;
+   color: #a00;
+}
+
 /* Content Box */
 
 body {
