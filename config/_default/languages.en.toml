@@ -1,0 +1,25 @@
+locale = "en"
+label = "English"
+direction = "ltr"
+weight = 1
+
+title = "Sayan Das"
+# copyright = "Copy, _right?_ :thinking_face:"
+
+[params]
+  dateFormat = "2 January 2006"
+
+  # mainSections = ["section1", "section2"]
+  # description = "My awesome website"
+
+[params.author]
+  name = "Sayan Das"
+  image = "img/author.jpg"
+  headline = "Aspiring number theorist"
+  bio = "4th year maths undergrad at Jadavpur University"
+  links = [
+    { email = "mailto:dassayan0013@gmail.com" },
+    { github = "https://github.com/sayan1729" },
+    { linkedin = "https://linkedin.com/in/sdas13" },
+    { mastodon = "https://mathstodon.xyz/@sayan1729" }
+]
