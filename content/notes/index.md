@@ -30,8 +30,8 @@ Here's a collection of lecture notes I've taken over the years.
 - Measure Theory
 - Functional Analysis
 - General Mechanics
-- Advanced Topology
-- Module Theory
+- Advanced Topology [PDF](top.pdf)
+- Module Theory [PDF](module.pdf)
 
 #### Past Semesters
 
