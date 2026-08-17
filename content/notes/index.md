@@ -27,9 +27,9 @@ Here's a collection of lecture notes I've taken over the years.
 
 #### Semester 7
 
-- Measure Theory
-- Functional Analysis
-- General Mechanics
+- Measure Theory [PDF](ra.pdf)
+- Functional Analysis [PDF](fa.pdf)
+- General Mechanics [PDF](gmech.pdf)
 - Advanced Topology [PDF](top.pdf)
 - Module Theory [PDF](module.pdf)
 
