@@ -8,7 +8,7 @@ tags: ["telegraph", "fiction", "short-story", "psychological-thriller"]
 
 ## Preface
 
-One of my short stories won the first prize in the Fiction category, in a [competition among souvenirs](https://web.archive.org/web/20260821125306/https://www.telegraphindia.com/west-bengal/durga-puja-souvenirs-awards-recognise-outstanding-writing-across-seven-categories-prnt/cid/2175941) published by all the Durga Puja committees in the Saltlake & Newtown area, courtesy of [The Telegraph](https://en.wikipedia.org/wiki/The_Telegraph_(India)).
+One of my short stories was the winner in the Fiction category, in a [competition among souvenirs](https://web.archive.org/web/20260821125306/https://www.telegraphindia.com/west-bengal/durga-puja-souvenirs-awards-recognise-outstanding-writing-across-seven-categories-prnt/cid/2175941) published by all the Durga Puja committees in the Saltlake & Newtown area, courtesy of [The Telegraph](https://en.wikipedia.org/wiki/The_Telegraph_(India)).
 
 ![telegraph.jpeg](telegraph.jpeg) 
 ![telegraph.jpg](telegraph.jpg) 
