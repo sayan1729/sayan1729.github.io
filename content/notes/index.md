@@ -11,13 +11,13 @@ cascade:
 
 ## Exposition
 
-1. [**Selberg's Elementary Proof of the Prime Number Theory**](isiant25/report.pdf) Internship report. Advisor: Prof. Satadal Ganguly.
+1. [**Selberg's Elementary Proof of the Prime Number Theorem**](isiant25/report.pdf) Internship report. Advisor: Prof. Satadal Ganguly.
 
 2. [**Fermat's Last Theorem for Regular Primes**](fltreg.pdf) Article written for JU Math Society magazine.
 
 ## Talks and Presentations
 
-1. [**Selberg's Elementary Proof of the Prime Number Theory**](isiant25/selberg.pdf) Internship report presentation. 1 April 2026. Jadavpur University.
+1. [**Selberg's Elementary Proof of the Prime Number Theorem**](isiant25/selberg.pdf) Internship report presentation. 1 April 2026. Jadavpur University.
 
 ## Notes
 
